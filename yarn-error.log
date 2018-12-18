@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add firebase
+
+PATH: 
+  C:\Users\nnnpd\Documents\firebase-app-rn\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Go\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\ComposerSetup\bin;B:\HashiCorp\vagrand\bin;‪C:\Program Files\Java\jdk1.8.0_172\bin;C:\Users\nnnpd\scoop\shims;C:\Users\nnnpd\AppData\Local\Microsoft\WindowsApps;C:\Users\nnnpd\AppData\Local\atom\bin;C:\Users\nnnpd\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\nnnpd\AppData\Local\Microsoft\WindowsApps;B:\php;C:\Users\nnnpd\go\bin;C:\Users\nnnpd\AppData\Roaming\npm;C:\Users\nnnpd\AppData\Local\Yarn\bin;C:\Users\nnnpd\AppData\Roaming\Composer\vendor\bin;‪C:\Program Files\Java\jdk1.8.0_172\bin;
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\Users\nnnpd\Documents\firebase-app-rn\node_modules\.bin'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "@types/expo": "^31.0.1",
+      "tslint": "^5.11.0",
+      "tslint-config-airbnb": "^5.11.1",
+      "typescript": "^3.2.2"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
